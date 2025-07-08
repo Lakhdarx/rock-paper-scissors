@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    font-family: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #ffc41b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section {
+    /* border: 2px solid white; */
+    border-radius: 5px;
+    box-shadow: inset;
+    background-color: whitesmoke;
+    min-width: 500px;
+    min-height: 500px;
+    padding: 20px 10px;
+
+    /* Got this from a shadow generator on the intenret */
+    box-shadow: 0px 0px 26px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 26px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 26px -6px rgba(0,0,0,0.75);
+}
+
+
+.buttons {
+    display: flex;
+    /* outline: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+
+
+.button {
+    border: 0;
+    /* outline : 1px solid red; */
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    transition: all 0.3s;
+    width: max-content;
+
+}
+
+
+
+.button:nth-child(1) {
+    background-color: #2ecc71;
+    color: whitesmoke;
+}
+
+/* .button:nth-child(1):hover {
+    background-color: white;
+    color: black;
+} */
+
+.button:nth-child(2) {
+    background-color: #e74c3c;
+    color: whitesmoke;
+}
+
+.button:nth-child(3) {
+    color: whitesmoke;
+    background-color: #9b59b6;
+}
+
+
+.button:hover {
+    cursor: pointer;
+}
+
+#rock:hover {
+    color:#2ecc71;
+    background-color: black;
+}
+
+#paper:hover {
+    color:#e74c3c;
+    background-color: black;
+}
+
+#scissor:hover {
+    color:#9b59b6;
+    background-color: black;
+}
+
+.results {
+    
+    margin-top: 100px;
+}
+
+
+.results p {
+    width: max-content;
+    font-size: 20px;
+    margin: 25px auto;
+}
+
+.gameResult {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+

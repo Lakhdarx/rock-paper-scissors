@@ -51,11 +51,13 @@ function playRound(human, computer) {
     
     if (humanScore === 5) {
         gameResult.textContent = '---- You win! ----';
+        gameResult.style.color = '#0FDD5B';
         humanScore = 0;
         computerScore = 0;
     }
     else if (computerScore === 5) {
         gameResult.textContent = '---- Computer wins! ----';
+        gameResult.style.color = '#F10707';
         humanScore = 0;
         computerScore = 0;
     }
